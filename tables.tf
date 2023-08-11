@@ -77,10 +77,7 @@ resource "snowflake_table" "books" {
     type     = "NUMBER(38,0)"
   }
 
-  column {
-    name     = "RELEASE_DATE"
-    type     = "DATE"
-  }
+
 }
 
 resource "snowflake_table" "genres" {
